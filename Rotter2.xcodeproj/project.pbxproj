@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09083E05719D0A4AA443CC05 /* Pods_Rotter2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E53172CA403420A600B177 /* Pods_Rotter2.framework */; };
+		A60183A61BF86F5A00675D5B /* CozyLoadingActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60183A51BF86F5A00675D5B /* CozyLoadingActivity.swift */; settings = {ASSET_TAGS = (); }; };
+		A60183A81BF8706C00675D5B /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60183A71BF8706C00675D5B /* VideoDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A663BC6E1BF2137A000BD222 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663BC6D1BF2137A000BD222 /* MovieModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A663BC701BF21536000BD222 /* RatingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663BC6F1BF21536000BD222 /* RatingsModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A663BC721BF21566000BD222 /* PosterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663BC711BF21566000BD222 /* PosterModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A663BC741BF2158D000BD222 /* CastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663BC731BF2158D000BD222 /* CastModel.swift */; settings = {ASSET_TAGS = (); }; };
+		A686C33C1BF0CC8C00DBC1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686C33B1BF0CC8C00DBC1BF /* AppDelegate.swift */; };
+		A686C33E1BF0CC8C00DBC1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686C33D1BF0CC8C00DBC1BF /* ViewController.swift */; };
+		A686C3411BF0CC8C00DBC1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A686C33F1BF0CC8C00DBC1BF /* Main.storyboard */; };
+		A686C3431BF0CC8C00DBC1BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A686C3421BF0CC8C00DBC1BF /* Assets.xcassets */; };
+		A686C3461BF0CC8C00DBC1BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A686C3441BF0CC8C00DBC1BF /* LaunchScreen.storyboard */; };
+		A686C34F1BF0D1B700DBC1BF /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686C34D1BF0D1B700DBC1BF /* MovieCell.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1482E398BC0CFCA220DA3FC5 /* Pods-Rotter2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotter2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rotter2/Pods-Rotter2.release.xcconfig"; sourceTree = "<group>"; };
+		18E53172CA403420A600B177 /* Pods_Rotter2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rotter2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60183A51BF86F5A00675D5B /* CozyLoadingActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CozyLoadingActivity.swift; sourceTree = "<group>"; };
+		A60183A71BF8706C00675D5B /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		A663BC6D1BF2137A000BD222 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		A663BC6F1BF21536000BD222 /* RatingsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingsModel.swift; sourceTree = "<group>"; };
+		A663BC711BF21566000BD222 /* PosterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosterModel.swift; sourceTree = "<group>"; };
+		A663BC731BF2158D000BD222 /* CastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastModel.swift; sourceTree = "<group>"; };
+		A686C3381BF0CC8C00DBC1BF /* Rotter2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rotter2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A686C33B1BF0CC8C00DBC1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A686C33D1BF0CC8C00DBC1BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A686C3401BF0CC8C00DBC1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A686C3421BF0CC8C00DBC1BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Rotter2/Assets.xcassets; sourceTree = "<group>"; };
+		A686C3451BF0CC8C00DBC1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A686C3471BF0CC8C00DBC1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A686C34D1BF0D1B700DBC1BF /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D299254CBD510A14C3B325D1 /* Pods-Rotter2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rotter2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rotter2/Pods-Rotter2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A686C3351BF0CC8C00DBC1BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09083E05719D0A4AA443CC05 /* Pods_Rotter2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBD4BDEEDF3449544AE5F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E53172CA403420A600B177 /* Pods_Rotter2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A60183A41BF86F4000675D5B /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				A60183A51BF86F5A00675D5B /* CozyLoadingActivity.swift */,
+			);
+			name = OpenSource;
+			sourceTree = "<group>";
+		};
+		A663BC681BF20F82000BD222 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A686C33B1BF0CC8C00DBC1BF /* AppDelegate.swift */,
+				A686C33D1BF0CC8C00DBC1BF /* ViewController.swift */,
+				A60183A71BF8706C00675D5B /* VideoDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A663BC691BF20F8E000BD222 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A663BC6A1BF20F96000BD222 /* TableCell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A663BC6A1BF20F96000BD222 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				A686C34D1BF0D1B700DBC1BF /* MovieCell.swift */,
+			);
+			name = TableCell;
+			sourceTree = "<group>";
+		};
+		A663BC6B1BF20FB0000BD222 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				A686C3441BF0CC8C00DBC1BF /* LaunchScreen.storyboard */,
+				A686C3471BF0CC8C00DBC1BF /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		A663BC6C1BF2135F000BD222 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A663BC6D1BF2137A000BD222 /* MovieModel.swift */,
+				A663BC6F1BF21536000BD222 /* RatingsModel.swift */,
+				A663BC711BF21566000BD222 /* PosterModel.swift */,
+				A663BC731BF2158D000BD222 /* CastModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A686C32F1BF0CC8C00DBC1BF = {
+			isa = PBXGroup;
+			children = (
+				A686C33A1BF0CC8C00DBC1BF /* Rotter2 */,
+				A686C33F1BF0CC8C00DBC1BF /* Main.storyboard */,
+				A686C3421BF0CC8C00DBC1BF /* Assets.xcassets */,
+				A686C3391BF0CC8C00DBC1BF /* Products */,
+				D1F8EBC72061574632C3EDCD /* Pods */,
+				2FBD4BDEEDF3449544AE5F4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A686C3391BF0CC8C00DBC1BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A686C3381BF0CC8C00DBC1BF /* Rotter2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A686C33A1BF0CC8C00DBC1BF /* Rotter2 */ = {
+			isa = PBXGroup;
+			children = (
+				A663BC681BF20F82000BD222 /* Controller */,
+				A663BC691BF20F8E000BD222 /* View */,
+				A663BC6C1BF2135F000BD222 /* Model */,
+				A60183A41BF86F4000675D5B /* OpenSource */,
+				A663BC6B1BF20FB0000BD222 /* Support */,
+			);
+			path = Rotter2;
+			sourceTree = "<group>";
+		};
+		D1F8EBC72061574632C3EDCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D299254CBD510A14C3B325D1 /* Pods-Rotter2.debug.xcconfig */,
+				1482E398BC0CFCA220DA3FC5 /* Pods-Rotter2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A686C3371BF0CC8C00DBC1BF /* Rotter2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A686C34A1BF0CC8C00DBC1BF /* Build configuration list for PBXNativeTarget "Rotter2" */;
+			buildPhases = (
+				BECB9FF13E0DA9A9C72860DC /* Check Pods Manifest.lock */,
+				A686C3341BF0CC8C00DBC1BF /* Sources */,
+				A686C3351BF0CC8C00DBC1BF /* Frameworks */,
+				A686C3361BF0CC8C00DBC1BF /* Resources */,
+				3F91E6B1C72B20DF98B68F22 /* Embed Pods Frameworks */,
+				6969BAF3298253D5CC821B01 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rotter2;
+			productName = Rotter2;
+			productReference = A686C3381BF0CC8C00DBC1BF /* Rotter2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A686C3301BF0CC8C00DBC1BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Le Thanh Tan";
+				TargetAttributes = {
+					A686C3371BF0CC8C00DBC1BF = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = A686C3331BF0CC8C00DBC1BF /* Build configuration list for PBXProject "Rotter2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A686C32F1BF0CC8C00DBC1BF;
+			productRefGroup = A686C3391BF0CC8C00DBC1BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A686C3371BF0CC8C00DBC1BF /* Rotter2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A686C3361BF0CC8C00DBC1BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A686C3461BF0CC8C00DBC1BF /* LaunchScreen.storyboard in Resources */,
+				A686C3431BF0CC8C00DBC1BF /* Assets.xcassets in Resources */,
+				A686C3411BF0CC8C00DBC1BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F91E6B1C72B20DF98B68F22 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rotter2/Pods-Rotter2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6969BAF3298253D5CC821B01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rotter2/Pods-Rotter2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BECB9FF13E0DA9A9C72860DC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A686C3341BF0CC8C00DBC1BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A663BC6E1BF2137A000BD222 /* MovieModel.swift in Sources */,
+				A663BC741BF2158D000BD222 /* CastModel.swift in Sources */,
+				A663BC701BF21536000BD222 /* RatingsModel.swift in Sources */,
+				A663BC721BF21566000BD222 /* PosterModel.swift in Sources */,
+				A60183A81BF8706C00675D5B /* VideoDetailViewController.swift in Sources */,
+				A60183A61BF86F5A00675D5B /* CozyLoadingActivity.swift in Sources */,
+				A686C33E1BF0CC8C00DBC1BF /* ViewController.swift in Sources */,
+				A686C33C1BF0CC8C00DBC1BF /* AppDelegate.swift in Sources */,
+				A686C34F1BF0D1B700DBC1BF /* MovieCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A686C33F1BF0CC8C00DBC1BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A686C3401BF0CC8C00DBC1BF /* Base */,
+			);
+			name = Main.storyboard;
+			path = Rotter2;
+			sourceTree = "<group>";
+		};
+		A686C3441BF0CC8C00DBC1BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A686C3451BF0CC8C00DBC1BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A686C3481BF0CC8C00DBC1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A686C3491BF0CC8C00DBC1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A686C34B1BF0CC8C00DBC1BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D299254CBD510A14C3B325D1 /* Pods-Rotter2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rotter2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercoolapp.Rotter2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A686C34C1BF0CC8C00DBC1BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1482E398BC0CFCA220DA3FC5 /* Pods-Rotter2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rotter2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.supercoolapp.Rotter2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A686C3331BF0CC8C00DBC1BF /* Build configuration list for PBXProject "Rotter2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A686C3481BF0CC8C00DBC1BF /* Debug */,
+				A686C3491BF0CC8C00DBC1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A686C34A1BF0CC8C00DBC1BF /* Build configuration list for PBXNativeTarget "Rotter2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A686C34B1BF0CC8C00DBC1BF /* Debug */,
+				A686C34C1BF0CC8C00DBC1BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A686C3301BF0CC8C00DBC1BF /* Project object */;
+}
